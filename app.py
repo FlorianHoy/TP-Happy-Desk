@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-  return "Welcome to the Flask CI/CD Demo! This is V2!"
+  return "Welcome to the Flask CI/CD Demo! This is V2! Kakou Kakou! "
 
 
 @app.route("/new-deployment")
