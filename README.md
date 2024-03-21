@@ -9,5 +9,5 @@
 5. Ensuite pour faire la connexion avec Azure, allez sur la Web App et télécharger le profil de publication. Sur Github, il faudra aller sur le projet dans **settings** puis cliquer sur **Secret and Variables** puis **Actions**.
 6. Créer un **New Secret Repository AZURE_WEBAPP_PUBLISH_PROFILE** en mettant le contenu de votre profil de publication puis enregistrer.
 7. Se rendre dans **Actions** sur le projet Github pour vérifier le bon fonctionnement de la pipeline.
-8. Une fois que la pipeline est active, allez sur le domaine par défaut de Web App pour vérifier que son contenu s'affiche bien.
+8. Une fois que la pipeline est active, allez sur le domaine par défaut de la Web App pour vérifier que son contenu s'affiche bien.
 9. Pour vérifier que les modifications s'effectuent bien, il faudra modifier le contenu de **app.py** puis aller sur la page web pour vérifier.
